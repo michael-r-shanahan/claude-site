@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myBrightway - Policies</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'bw-navy': '#003049',
+            'bw-yellow': '#f0ff00',
+            'bw-grey-50': '#e5e8ee',
+            'bw-grey-100': '#bfc6d4',
+            'bw-grey-200': '#8291ac',
+            'bw-grey-300': '#4f5e78',
+            'bw-green-50': '#dcf9de',
+            'bw-green-300': '#0e5313',
+            'bw-blue-200': '#0072ad',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</head>
+<body class="bg-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-bw-navy">
+    <div class="max-w-[1000px] mx-auto px-6 flex items-center justify-between h-[56px]">
+      <div class="flex items-center gap-6">
+        <span class="text-white text-lg font-medium">
+          <span class="italic text-bw-grey-100">my</span><span class="italic font-bold text-white"> Brightway</span>
+        </span>
+        <nav class="flex items-center gap-5">
+          <a href="#" class="text-white text-sm font-medium hover:underline">Policies</a>
+          <a href="#" class="text-white text-sm font-medium hover:underline">Help</a>
+          <a href="#" class="text-white text-sm font-medium hover:underline">Notifications</a>
+        </nav>
+      </div>
+      <div class="flex items-center gap-4">
+        <button class="border border-bw-yellow text-bw-yellow text-sm font-medium rounded-full px-5 py-1.5 hover:bg-bw-yellow hover:text-bw-navy transition">Get a new quote</button>
+        <div class="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1">
+    <div class="max-w-[1000px] mx-auto px-6 py-10">
+
+      <!-- Greeting -->
+      <h1 class="text-[36px] font-bold text-bw-navy leading-tight">Good Afternoon, Elena!</h1>
+      <p class="text-bw-grey-300 text-base mt-1 mb-8">Here's a quick look at your policies.</p>
+
+      <!-- Chat Banner -->
+      <div class="border border-bw-grey-50 rounded-lg px-5 py-4 flex items-center justify-between mb-10">
+        <div class="flex items-center gap-4 min-w-0">
+          <div class="w-10 h-10 bg-bw-navy rounded-lg flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-bw-yellow" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12zM7 9h2v2H7V9zm4 0h2v2h-2V9zm4 0h2v2h-2V9z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="font-bold text-[13px] text-bw-navy leading-tight">Got questions?</p>
+            <p class="text-[12px] text-bw-grey-300 leading-snug">Our licensed advisors are available via chat from 8AM-5:30PM EST, Monday-Friday, and our AI Assistant is available 24/7.</p>
+          </div>
+        </div>
+        <button class="border border-bw-navy text-bw-navy text-[13px] font-medium rounded-full px-5 py-2 flex items-center gap-2 whitespace-nowrap hover:bg-bw-navy hover:text-white transition ml-4 flex-shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+          Start Chatting
+        </button>
+      </div>
+
+      <!-- Policies Header -->
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-[28px] font-bold text-bw-navy">Policies</h2>
+        <button class="border border-bw-navy text-bw-navy text-sm font-medium rounded-full px-5 py-1.5 hover:bg-bw-navy hover:text-white transition">View Cases</button>
+      </div>
+
+      <!-- Current Policies Tab -->
+      <div class="mb-5">
+        <button class="border border-bw-navy text-bw-navy text-sm font-medium rounded-full px-4 py-1.5">Current policies</button>
+      </div>
+
+      <!-- Account -->
+      <h3 class="text-lg font-bold text-bw-navy mb-4">Account #1342773</h3>
+
+      <!-- Policy Card 1 - Homeowners -->
+      <div class="border border-bw-grey-50 rounded-lg p-5 mb-4">
+        <div class="flex items-start justify-between mb-3">
+          <div class="flex items-start gap-3">
+            <svg class="w-6 h-6 text-bw-grey-200 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/>
+            </svg>
+            <div>
+              <h4 class="text-lg font-bold text-bw-navy">Homeowners</h4>
+              <p class="text-sm text-bw-grey-300">Universal Property &amp; Casualty · Policy 1213-A-13133</p>
+            </div>
+          </div>
+          <span class="border border-green-600 text-green-700 text-xs font-medium rounded-full px-3 py-0.5">Active</span>
+        </div>
+        <div class="flex items-end justify-between mt-4">
+          <div>
+            <p class="text-xs font-semibold text-bw-grey-200 tracking-wide uppercase mb-1">Policy Period</p>
+            <p class="text-sm font-bold text-bw-navy">12/9/2025 – 12/9/2026</p>
+          </div>
+          <button class="border border-bw-navy text-bw-navy text-sm font-medium rounded-full px-4 py-1.5 flex items-center gap-2 hover:bg-bw-navy hover:text-white transition">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+            View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Policy Card 2 - Private Passenger Auto -->
+      <div class="border border-bw-grey-50 rounded-lg p-5 mb-4">
+        <div class="flex items-start justify-between mb-3">
+          <div class="flex items-start gap-3">
+            <svg class="w-6 h-6 text-bw-grey-200 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/>
+            </svg>
+            <div>
+              <h4 class="text-lg font-bold text-bw-navy">Private Passenger Auto</h4>
+              <p class="text-sm text-bw-grey-300">Progressive American Insurance Company · Policy 1313-AUTO-234</p>
+            </div>
+          </div>
+          <span class="border border-green-600 text-green-700 text-xs font-medium rounded-full px-3 py-0.5">Active</span>
+        </div>
+        <div class="flex items-end justify-between mt-4">
+          <div>
+            <p class="text-xs font-semibold text-bw-grey-200 tracking-wide uppercase mb-1">Policy Period</p>
+            <p class="text-sm font-bold text-bw-navy">12/9/2025 – 12/9/2026</p>
+          </div>
+          <button class="border border-bw-navy text-bw-navy text-sm font-medium rounded-full px-4 py-1.5 flex items-center gap-2 hover:bg-bw-navy hover:text-white transition">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+            View Details
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Chat FAB -->
+  <div class="fixed bottom-6 right-6">
+    <button class="bg-bw-navy text-white rounded-full pl-3 pr-4 py-2.5 flex items-center gap-2 text-sm font-medium shadow-lg hover:bg-opacity-90 transition">
+      <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+      </svg>
+      Chat
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-bw-navy text-white">
+    <div class="max-w-[1000px] mx-auto px-6 py-10">
+      <div class="flex gap-8">
+        <!-- Logo Mark -->
+        <div class="flex-shrink-0 relative" style="width: 90px; height: 140px; overflow: visible;">
+          <svg class="absolute -left-1 -top-1" width="100" height="150" viewBox="0 0 100 150" fill="none">
+            <text x="-5" y="115" font-size="145" font-weight="900" font-family="Arial, sans-serif" font-style="italic" fill="#4f5e78" opacity="0.45">B</text>
+            <path d="M5 125 Q25 140, 50 130 Q75 120, 85 135" stroke="#4f5e78" stroke-width="8" fill="none" opacity="0.35" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Footer Content -->
+        <div class="flex-1">
+          <p class="font-bold text-sm mb-2">Please note:</p>
+          <p class="text-sm text-bw-grey-100 leading-relaxed mb-6">We try our best to present the most up-to-date information, but sometimes we make mistakes. Please reference the declarations page and policy documents from your insurance company for full coverage details and other policy information.</p>
+          <p class="font-bold text-sm mb-2">Need Help?</p>
+          <p class="text-sm text-bw-grey-100">Text us at <a href="tel:888-703-3660" class="underline">888-703-3660</a></p>
+          <p class="text-sm text-bw-grey-100">This number is for SMS only. SMS rates may apply.</p>
+        </div>
+
+        <!-- Site Map -->
+        <div class="flex-shrink-0 text-right">
+          <p class="text-xs font-semibold tracking-wider uppercase mb-3">Site Map</p>
+          <ul class="space-y-1.5">
+            <li><a href="#" class="text-sm text-bw-grey-100 hover:underline">My Policies</a></li>
+            <li><a href="#" class="text-sm text-bw-grey-100 hover:underline">General FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-bw-grey-300">
+      <div class="max-w-[1000px] mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <a href="#" class="text-xs text-bw-grey-100 hover:underline">Terms</a>
+          <a href="#" class="text-xs text-bw-grey-100 hover:underline">Privacy</a>
+        </div>
+        <p class="text-xs text-bw-grey-100">&copy; Copyright 2026 Brightway</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
