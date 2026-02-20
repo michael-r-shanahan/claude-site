@@ -1,5 +1,12 @@
 {
-  "dependencies": {
+  "name": "claude-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx live-server --port=3000 --no-browser",
+    "screenshot": "node screenshot.mjs"
+  },
+  "devDependencies": {
     "puppeteer": "^24.37.5"
   }
 }
